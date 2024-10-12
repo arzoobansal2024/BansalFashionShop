@@ -1,0 +1,311 @@
+*{
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    border: border-box;
+}
+
+.navbar{
+    height: 70px;
+    background-color: #0f1111;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+
+.nav-logo{
+    height: 55px;
+    width: 98px;
+    display: flex;
+}
+
+.logo{
+    background-size: cover;
+    height: 20px;
+    width:100% ;
+    font-size: 3rem;
+}
+
+.logo2{
+    font-size: 0.85rem;
+    font-weight: 700;
+    height: 20px;
+    width: 100%;
+    text-align: end;
+}
+
+.border{
+    border: 2px solid transparent;
+}
+
+.border:hover{
+    border: 1.5px solid white;
+}
+
+.nav-search{
+    display: flex;
+    justify-content: space-evenly;
+    width: 620px;
+    height: 40px;
+    border-radius: 4px;
+}
+
+.search-select{
+    background-color: #f3f3f3;
+    width: 50px;
+    text-align: center;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border: none;
+}
+
+.search-input{
+    width: 100%;
+    font-size: 1rem;
+    border: none;
+}
+
+.search-icon{
+    width: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    background-color: #febd68;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    color: #0f1111;
+}
+
+.nav-search:hover{
+    border: 2px solid orange;
+}
+
+.sign-logo{
+    font-size: 30px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+span{
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+
+.orders i{
+    font-size: 30px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.nav-cart i{
+   font-size: 30px;
+}
+
+.nav-cart{
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+
+section{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items:center ;
+   background: rgb(250, 215, 186);
+}
+
+.slider{
+    height:800px;
+    width: 800px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.slides{
+    width:500% ;
+    height: 800px;
+    display: flex;
+}
+
+.slides input{
+    display: none;
+}
+
+.slide{
+    width: 20%;
+    transition:2s;
+}
+
+.slide img{
+    width: 100%;
+    height:100%;
+    background-size: cover;
+}
+
+#radio1:checked ~ .first{
+    margin-left: 0;
+}
+
+#radio2:checked ~ .first{
+    margin-left: -20%;
+}
+
+#radio3:checked ~ .first{
+    margin-left: -40%;
+}
+
+#radio4:checked ~ .first{
+    margin-left: -60%;
+}
+
+.navigation-auto{
+    position:absolute;
+    display: flex;
+    width: 800px;
+}
+
+.navigation-auto div{
+    border: 2px solid #40D3DC;
+    padding: 5px;
+    border-radius: 10px;
+    transition: 1s;
+    justify-content: center;
+    margin-top: 460px;
+}
+
+.navigation-auto div:not(:last-child){
+    margin-right: 40px;
+}
+
+#radio1:checked ~ .navigation-auto .auto-btn1{
+    background:#40D3DC;
+}
+
+#radio2:checked ~ .navigation-auto .auto-btn2{
+    background:#40D3DC;
+}
+
+#radio3:checked ~ .navigation-auto .auto-btn3{
+    background:#40D3DC;
+}
+
+#radio4:checked ~ .navigation-auto .auto-btn4{
+    background:#40D3DC;
+}
+
+.shop-section{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(230, 224, 219) ;
+}
+
+.box{
+    height:550px;
+    width:23%;
+    border: 2px solid black;
+    background-color:white;
+    padding: 20px 0px 15px;
+    margin-top: 15px;
+}
+   
+.box-img{
+    height:500px ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 1rem;
+}
+
+.box-content{
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.box-content p{
+    color: #007185;
+}
+
+footer{
+    margin-top: 15px;
+}
+
+.foot-panel1{
+    background-color:#37475a ;
+    color: white;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.85rem;
+}
+
+.foot-panel2{
+    background-color: #222f3d;
+    color: white;
+    height:200px ;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+ul{
+    margin-top: 10px;
+}
+
+ul a{
+    display: block;
+    font-size: 0.85rem;
+    margin-top: 10px;
+    color: #dddddd;
+}
+
+.foot-panel3{
+    background-color: #222f3d;
+    color: white;
+    border: 0.5px solid white;
+    height: 100px;
+    display: block;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding:15px;
+}
+
+.copyright{
+    font-size: 0.7rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 25px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
